@@ -15,10 +15,9 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "react": "react-scripts start",
-    "start": "node server/index.js"
+    "build": "react-scripts build",
+    "start": "npm run build && node server/index.js"
   },
-  "proxy": "http://localhost:3001",
   "eslintConfig": {
     "extends": [
       "react-app",

@@ -26,7 +26,7 @@ function App() {
   const handleClick = (e) => {
     e.preventDefault();
     axios
-      .post("http://localhost:3000/item", {
+      .post("/item", {
         color: color,
         leg: leg,
         sizes: {
@@ -203,7 +203,7 @@ function App() {
             {sizes.lowerLeg === "" || sizes.lowerLeg === 0 ? (
               <div className="error">Please enter a value</div>
             ) : (
-              console.log(error)
+              ""
             )}
           </form>
         </div>
