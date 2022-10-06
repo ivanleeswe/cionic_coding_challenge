@@ -112,7 +112,7 @@ function App() {
         </div>
         {/* Select Leg Card */}
         <div className="select_card">
-          <div className="header">1. Select which leg:</div>
+          <div className="header">2. Select which leg:</div>
           <div className="select_card_container">
             <div
               role="button"
